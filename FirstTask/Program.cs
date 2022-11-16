@@ -2,8 +2,8 @@
 // Напишите программу, которая покажет количество четных чисел в массиве.
 // [345, 897, 568, 234] -> 2
 
-Console.WriteLine("Введите размер массива");
-int size = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите размер массива:");
+int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
 FillArrayRandomNumbers(numbers);
 Console.WriteLine("Массив: ");
